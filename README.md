@@ -27,20 +27,14 @@ O projeto requer as seguintes bibliotecas Python:
 - `time`
 - `datetime`
 
-Você pode instalar as dependências necessárias usando o seguinte comando:
+## Como Usar
+-Clone este repositório para o seu computador.
 
-```bash
-pip install ttkbootstrap openpyxl pandas pyautogui
+-Certifique-se de que o Python está instalado e as dependências estão satisfeitas.
 
+-Coloque sua planilha Excel (no formato .xlsx) com os dados dos alunos na mesma pasta do script.
 
-Como Usar
-Clone este repositório para o seu computador.
-
-Certifique-se de que o Python está instalado e as dependências estão satisfeitas.
-
-Coloque sua planilha Excel (no formato .xlsx) com os dados dos alunos na mesma pasta do script.
-
-Execute o script DisparaMensagemButton 2.0.py.
+-Execute o script DisparaMensagemButton 2.0.py.
 
 A interface gráfica será aberta. Selecione o tema, o curso e a instituição parceira.
 
@@ -54,3 +48,9 @@ Você pode personalizar a mensagem enviada e os cursos oferecidos alterando as s
 Créditos
 Desenvolvido por Eduardo Zanin e
 Lucas Ferrari.
+
+
+Você pode instalar as dependências necessárias usando o seguinte comando:
+
+```bash
+pip install ttkbootstrap openpyxl pandas pyautogui
